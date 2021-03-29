@@ -2,3 +2,30 @@
   display: flex;
   justify-content: center;
 }
+
+
+
+.category-container {
+  display: flex;
+}
+
+.categories {
+  border: 1px solid #000000;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.books,
+.music,
+.movies,
+.art,
+.outdoors,
+.games,
+.cooking,
+.decor,
+.micellaneous {
+  width: 200px;
+
+}

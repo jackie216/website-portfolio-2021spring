@@ -1,0 +1,19 @@
+.layout-container {
+  color: #000000;
+  display: flex;
+}
+
+.layout {
+  display: flex;
+}
+
+.side-menu-container {
+  background-color: #FBC4BF;
+  flex: initial;
+  width: 150px;
+  align-items: stretch;
+}
+
+.main-body-container {
+  background-color: #FFE6EE
+}
