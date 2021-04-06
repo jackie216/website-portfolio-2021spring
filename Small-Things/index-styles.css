@@ -1,0 +1,70 @@
+.heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF9EE;
+  height: 1.5em;
+  background-image: url("Project-Images-scissors.svg");
+  font-family: 'Archistico', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 4em;
+  border-bottom: 2px dashed black;
+}
+
+
+@font-face {
+  font-family: "Archistico";
+  src: url('Project-Images/Archistico_Simple.ttf');
+}
+
+.blurb-container {
+  display: flex;
+  background-color: #FFE6EE;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 3em 1em 3em;
+  text-align: center;
+  font-family: 'Archistico', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.2em;
+  color: #616161;
+  border-bottom: 2px dashed black;
+}
+
+
+.category-container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.categories {
+  /*border: 1px solid #000000;*/
+  width: 700px;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.books,
+.music,
+.movies,
+.art,
+.outdoors,
+.games,
+.cooking,
+.decor,
+.micellaneous {
+  width: 20vw;
+  /*border: 5px solid #ACE3AA; green category border*/
+border: 3px solid #FFE6EE;
+  margin: 30px;
+}
+
+a:active {
+  color: #0000FF;
+}
