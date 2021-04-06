@@ -2,12 +2,18 @@
   display: flex;
   justify-content: center;
   background-color: #FFF9EE;
-  height: 100px;
+  height: auto;
+  background-image: url("Project-Images-scissors.svg");
 }
 
 .blurb-container {
   display: flex;
   background-color: #FFE6EE;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8em;
+  padding-right: 8em;
 }
 
 
@@ -34,6 +40,11 @@
 .cooking,
 .decor,
 .micellaneous {
-  width: 200px;
+  width: 20vw;
   border: 5px solid #ACE3AA; /*green category border*/
+  margin: 30px;
+}
+
+a:active {
+  color: #0000FF;
 }
