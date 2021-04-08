@@ -50,21 +50,13 @@
   justify-content: center;
 }
 
-.books,
-.music,
-.movies,
-.art,
-.outdoors,
-.games,
-.cooking,
-.decor,
-.micellaneous {
+.icon {
   width: 20vw;
   /*border: 5px solid #ACE3AA; green category border*/
 border: 3px solid #FFE6EE;
   margin: 30px;
 }
 
-a:active {
-  color: #0000FF;
+.icon:hover {
+  border: 3px solid #B2D3C2;
 }
