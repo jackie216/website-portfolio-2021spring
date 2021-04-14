@@ -1,0 +1,107 @@
+.whole {
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 96px 30px 700px;
+  font-family: Georgia, sans-serif;
+}
+
+.heading-container {
+  position: sticky;
+  grid-column: 1 / 3;
+  grid-row: 1;
+  background-color: #FFF9EE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Archistico', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 4em;
+}
+@font-face {
+  font-family: "Archistico";
+  src: url('Project-Images/Archistico_Simple.ttf');
+}
+.heading-title {
+  display: flex;
+}
+
+.menu-container {
+  grid-row: 2;
+  grid-column: 1 / 3;
+  display: flex;
+  justify-content: center;
+  background-color: #FFF9EE;
+    border-bottom: 2px dashed black;
+  font-family: 'Archistico', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.2em;
+  color: #616161;
+}
+@font-face {
+  font-family: "Baloo";
+  src: url('Project-Images/Baloo-Regular.ttf');
+}
+
+.side-menu-container {
+  grid-column: 1;
+  grid-row: 3;
+  background-color: #FFE6EE;
+  font-family: 'Baloo', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.side-menu a{
+  /*padding-left: 1em;
+  padding-right: 1em;*/
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+.side-menu a:hover {
+  background-color: #CD5E77; /* dark pink */
+}
+.side-menu a:active {
+  text-decoration: #4CAF50;
+}
+
+
+.main-body-container {
+  grid-column: 2 / 3;
+  grid-row: 3;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+h1 {
+  padding-left: 0.5em;
+}
+
+.list-element {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 1em;
+}
+.main-body-image {
+  width: 35%;
+}
+.not-svg {
+  width: 90%;
+}
+.main-body-text {
+  width: 65%;
+}
+
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #DCD0FF;
+}
+a:visited {
+  text-decoration: none;
+  decoration: none;
+}

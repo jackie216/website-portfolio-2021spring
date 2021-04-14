@@ -1,0 +1,54 @@
+.heading-container {
+  display: flex;
+  justify-content: center;
+  background-color: #FFF9EE;
+  height: 100px;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  background-color: #EEE4FF;
+}
+
+.layout-container {
+  color: #000000;
+  display: flex;
+}
+
+.layout {
+  display: flex;
+}
+
+.side-menu-container {
+  background-color: #FBC4BF;
+  width: 600px;
+  display: flex;
+}
+
+.side-menu {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-body-container {
+  background-color: #FFE6EE;
+  display: flex;
+  flex-direction: column;
+
+}
+.Edward-Scissorhands {
+  display: flex;
+}
+.Fly-Away-Home {
+  display: flex;
+}
+
+.main-body-image {
+  width: 450px;
+}
+
+.main-body-text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
