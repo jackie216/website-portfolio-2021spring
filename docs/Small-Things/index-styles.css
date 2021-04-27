@@ -10,7 +10,7 @@
   font-weight: normal;
   font-style: normal;
   font-size: 4em;
-  border-bottom: 2px dashed black;
+  border: 2px dashed gray;
 }
 
 
@@ -22,7 +22,7 @@
 .blurb-container {
   display: flex;
   background-color: #FFE6EE;
-  height: 100px;
+  min-height: 100px;
   align-items: center;
   justify-content: center;
   padding: 1em 3em 1em 3em;
@@ -32,7 +32,8 @@
   font-style: normal;
   font-size: 1.2em;
   color: #616161;
-  border-bottom: 2px dashed black;
+  border-left: 2px dashed gray;
+  border-right: 2px dashed gray;
 }
 
 
@@ -40,6 +41,7 @@
   display: flex;
   justify-content: center;
   height: auto;
+  border: 2px dashed gray;
 }
 
 .categories {
