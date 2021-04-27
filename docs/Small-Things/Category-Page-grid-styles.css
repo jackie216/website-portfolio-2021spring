@@ -10,6 +10,9 @@
   grid-column: 1 / 3;
   grid-row: 1;
   background-color: #FFF9EE;
+    border-left: 2px dashed gray;
+    border-right: 2px dashed gray;
+    border-top: 2px dashed gray;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +35,9 @@
   display: flex;
   justify-content: center;
   background-color: #FFF9EE;
-    border-bottom: 2px dashed black;
+    border-bottom: 2px dashed gray;
+    border-left: 2px dashed gray;
+    border-right: 2px dashed gray;
   font-family: 'Archistico', Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -51,6 +56,9 @@
   font-family: 'Baloo', Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
+  border-right: 2px dashed gray;
+  border-left: 2px dashed gray;
+  border-bottom: 2px dashed gray;
 }
 .side-menu a{
   /*padding-left: 1em;
@@ -71,17 +79,30 @@
   grid-column: 2 / 3;
   grid-row: 3;
   overflow: auto;
+  border-right: 2px dashed gray;
   scroll-behavior: smooth;
+  font-family: 'Antic', Arial, sans-serif;
 }
+@font-face {
+  font-family: "Antic";
+  src: url('Project-Images/AnticDidone-Regular.otf');
+}
+/*@font-face {
+  font-family: "Quicksand";
+  src: url('Project-Images/QuickSand-Light.otf');
+}*/
+
 h1 {
-  padding-left: 0.5em;
+  padding-left: 0.8em;
 }
 
 .list-element {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-left: 1em;
+  padding-left: 1.6em;
+  padding-bottom: 1.35em;
+  border-bottom: 2px dashed gray;
 }
 .main-body-image {
   width: 35%;
@@ -91,6 +112,7 @@ h1 {
 }
 .main-body-text {
   width: 65%;
+  padding-right: 1em;
 }
 
 
